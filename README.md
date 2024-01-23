@@ -39,9 +39,23 @@ Durante a elaboração da To Do List, apresentamos três funcionalidades essenci
 
 ![Importações e useState](/src/images/code/import_useetate.png)
 
-**import React, { useState } from 'react';**: Importa a biblioteca React e o hook useState do React. O useState é usado para gerenciar o estado da aplicação.
+**import React, { useState } from 'react';** : Importa a biblioteca React e o hook useState do React. O useState é usado para gerenciar o estado da aplicação.
 
-'''import './App.css';''': Importa um arquivo de estilos CSS para a aplicação.
+**import './App.css';** : Importa um arquivo de estilos CSS para a aplicação.
 
-function App() : Início da definição da função principal App.
+**function App()** : Início da definição da função principal App.
+
+Todos os useState seguem o mesmo formato, mudando apenas seu valor inicial. Por exemplo na linha **const [newTask, setNewTask] = useState('');**
+
+ - **const** : Declaração de uma constante, indicando que **newTask** será uma variável constante que não pode ser reatribuída.
+
+ - **[newTask, setNewTask]** : Utiliza a desestruturação de array para atribuir dois valores a partir do retorno de **useState**.
+ 
+    - **newTask**: Representa o estado atual da variável, que armazenará o conteúdo da nova tarefa.
+
+    - **setNewTask** : É uma função que permite modificar o estado **newTask**.
+
+
+
+
 
