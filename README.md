@@ -10,15 +10,11 @@ O objetivo deste projeto é empregar o React Js como plataforma para o desenvolv
 
 ## Descrição para instalação dos softwares necessários
 
-### Para a utilização 
-Para a utilização do To Do List é necessário ter um navegador web, como por exemplo o Google Chrome
-
-### Para o desenvolvimento
 Inicialmente devemos criar um projeto com react js, seguindo os seguintes passos:
 
 Deve Se instalar um editor de codigo, como por exemplo o Visual Studio Code utilizado para o desenvolvimento do mini projeto. Você pode baixar o Vs Code em [Clique Aqui](https://code.visualstudio.com/)
 
-instalar um navegador web
+Para a utilização do To Do List é necessário ter um navegador web, como por exemplo o Google Chrome
 
 instalar o Node.js e npm: Certifique-se de ter o Node.js instalado em seu sistema, pois o npm (Node Package Manager) vem junto com ele. Você pode baixar o Node.js em [Clique Aqui](https://nodejs.org/.)
 
