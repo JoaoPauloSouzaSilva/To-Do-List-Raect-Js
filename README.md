@@ -111,7 +111,7 @@ Agora dentro do bloco do ‘**return**’ inserimos os seguintes códigos para f
 
 ![Primeira parte do bloco return](/images/code/return_01.png)
 
-Input de texto (**<input>**):
+Input de texto (**< input >**):
   - **type="text"**: Define o tipo de input como texto.
 
   - **id="newTaskInput"**: Atribui um ID ao input
@@ -123,13 +123,46 @@ Input de texto (**<input>**):
   - **placeholder="Tarefa"**: Exibe um texto de sugestão dentro do input quando 
   está vazio.
 
-Botão (**<button>**):
+Botão (**< button >**):
   - **onClick={addTask}**: Define uma função de callback para o evento de clique (**onClick**). Quando o botão é clicado, a função **addTask** é chamada.
 
 ![Segunda parte do bloco return](/images/code/return_02.png)
 
-**<ul>**: Esta tag cria uma lista não ordenada (unordered list).
+**< ul >**: Esta tag cria uma lista não ordenada (unordered list).
 
+**{tasks.map((task, index) => ( ... ))}**: Aqui, está sendo utilizado um método **map** para percorrer o array **tasks**. Para cada elemento **task** no array, é executada uma função que retorna um componente **< li >** (item de lista) com informações da tarefa.
+
+**< li key={index} >**: Cada item de lista (**< li >**) tem uma propriedade **key** definida como **index**. A chave (**key**) é usada pelo React para otimização e identificação única de elementos em uma lista.
+
+**{task}**: Aqui, o conteúdo do item da lista é renderizado. 
+
+**< button className="edit-button" onClick={() => editTask(index)} >**: Cria um botão de edição com a classe "edit-button". Quando clicado, o evento **onClick** chama a função **editTask(index)**.O botão inclui uma imagem de um ícone de edição (um lápis).
+
+**< button className="delete-button" onClick={() => deleteTask(index)} >**: Cria um botão de exclusão com a classe "delete-button". Quando clicado, o evento **onClick** chama a função **deleteTask(index)**.O botão Inclui uma imagem de um ícone de lixeira.
+
+![Modal de edição no bloco return](/images/code/modal_edit.png)
+
+**{showModal && (...)}**: Esta é uma expressão JSX condicional. Se **showModal** for verdadeiro, o código dentro dos parênteses será renderizado. Se for falso, nada será renderizado.
+
+**< span className="close" >**: Um contêiner para o botão de fechar o modal. dentro dele tem uma imagem que representa o ícone de fechar o modal. Quando clicado, o estado **NewTask** é atualizado para uma string vazia e o estado **showModal** é atualizado para **false**, fechando o modal.
+
+**< input ... / >**: Um campo de entrada de texto para editar a tarefa. O valor do campo é controlado pelo estado **newTask** e é atualizado através da função **setNewTask** no evento **onChange**. Este Input possui a mesma estrutura que o input utilizado anteriormente
+
+**< button className="modal-button-save" onClick={addTask} >**: Um botão que, quando clicado, chama a função **addTask**. que salva a tarefa editada.
+
+![Modal de alerta no bloco return](/images/code/modal_alert.png)
+
+**{showAlert && (...)}**: Isso é uma expressão JSX que renderiza o código dentro do parênteses somente se a variável **showAlert** for verdadeira. Isso é uma técnica comum para condicionalmente renderizar elementos em React.
+
+**< span className="close" >**: Um elemento de span que representa o botão de fechar o alerta. Possui dentro dele uma imagem que representa um ícone de fechar. Quando clicada, a função **setShowAlert(false)** será chamada, o que esconde o alerta/modal ao definir showAlert como falso.
+
+**< p > ... < /p >**: Um parágrafo que contém uma mensagem de alerta indicando que o campo de entrada está vazio e pedindo ao usuário para inserir uma tarefa.
+
+**< button id="button-alert-close" onClick={() => setShowAlert(false)}> Ok < /button >**: Um botão "Ok" que, quando clicado, chama a função **setShowAlert(false)** para esconder o alerta/modal.
+
+O código aqui descrito  juntamente com o estilo css que deve estar no arquivo App.css na pasta src, terá como resultado o seguinte To Do List. 
+
+1. 
 
 
 
