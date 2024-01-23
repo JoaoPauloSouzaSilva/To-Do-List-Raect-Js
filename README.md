@@ -24,9 +24,9 @@ instalar o Node.js e npm: Certifique-se de ter o Node.js instalado em seu sistem
 
 Instalar o Create React App: O Create React App é uma ferramenta que facilita a configuração inicial do seu projeto React. Para instalá-lo, abra seu terminal e execute o seguinte comando:
 
-  ''' 
-    npx create-react-app todolist 
-  '''
+  ```bash
+    npx create-react-app todolist
+  ```
 
 ---
 
