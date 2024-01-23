@@ -31,7 +31,9 @@ Instalar o Create React App: O Create React App é uma ferramenta que facilita a
 ## Passo-a-Passo para o desenvolvimento
 Abra o arquivo src/App.js. Você verá uma estrutura parecida com essa: 
 
+<div align="center">
 ![Codigo Base](/images/code/image_00.png)
+</div>
 
 Após abrir apague, as informações já existentes e deixe o arquivo com a seguinte estrutura: 
 
