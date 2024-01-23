@@ -30,3 +30,18 @@ Instalar o Create React App: O Create React App é uma ferramenta que facilita a
 Abra o arquivo src/App.js. Você verá uma estrutura parecida com essa: 
 
 ![Codigo Base](/src/images/code/image_00.png)
+
+Após abrir apague, as informações já existentes e deixe o arquivo com a seguinte estrutura: 
+
+![Estado Inicial](/src/images/code/image_01.png)
+
+Durante a elaboração da To Do List, apresentamos três funcionalidades essenciais: inclusão, exclusão e edição de tarefas. No entanto, antes de implementar essas funções, é necessário criar os estados usando o useState, também denominado "hook de estado", e realizar algumas importações.
+
+![Importações e useState](/src/images/code/import_useetate.png)
+
+import React, { useState } from 'react';: Importa a biblioteca React e o hook useState do React. O useState é usado para gerenciar o estado da aplicação.
+
+import './App.css';: Importa um arquivo de estilos CSS para a aplicação.
+
+function App() : Início da definição da função principal App.
+
