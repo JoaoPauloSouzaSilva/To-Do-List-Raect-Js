@@ -111,6 +111,25 @@ Agora dentro do bloco do ‘**return**’ inserimos os seguintes códigos para f
 
 ![Primeira parte do bloco return](/images/code/return_01.png)
 
-'<div className="background-image"></div>':Define uma div para colocar uma imagem ao fundo da tela. Para que a imagem apareça, crie dentro da pasta src uma pasta chamada images e dentro desta pasta coloque a logo do React js de preferência sem fundo.
+Input de texto (**<input>**):
+  - **type="text"**: Define o tipo de input como texto.
+
+  - **id="newTaskInput"**: Atribui um ID ao input
+
+  - **value={newTask}**: O valor do input é controlado pelo estado **newTask**. O valor exibido é obtido do estado.
+
+  - **onChange={(e) => setNewTask(e.target.value)}**: Define uma função de callback para o evento de mudança (**onChange**). Sempre que o valor do input muda, a função é chamada para atualizar o estado **newTask** com o novo valor.
+
+  - **placeholder="Tarefa"**: Exibe um texto de sugestão dentro do input quando 
+  está vazio.
+
+Botão (**<button>**):
+  - **onClick={addTask}**: Define uma função de callback para o evento de clique (**onClick**). Quando o botão é clicado, a função **addTask** é chamada.
+
+![Segunda parte do bloco return](/images/code/return_02.png)
+
+**<ul>**: Esta tag cria uma lista não ordenada (unordered list).
+
+
 
 
