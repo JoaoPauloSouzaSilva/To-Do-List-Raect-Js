@@ -162,13 +162,21 @@ Botão (**< button >**):
 
 O código aqui descrito  juntamente com o estilo css que deve estar no arquivo App.css na pasta src, terá como resultado o seguinte To Do List. 
 
-1. 
+1. Tela Inicial 
 ![Tela inicial](/images/code/tela_00.png)
+
+2. Tela mostrando a adição de duas tarefas 
 ![Tela adição de tarefa](/images/code/tela_01.png)
+
+3. Tela mostrando a edição de uma tarefa 
 ![Tela de edição de tarefa 01](/images/code/tela_02.png)
 ![Tela de edição de tarefa 02](/images/code/tela_03.png)
 ![Tela inicial após atualização de tarefa](/images/code/tela_04.png)
+
+4. Tela que mostra a tentativa de salvar uma tarefa vazia ou salvar a edição de uma tarefa como vazia 
 ![Tela de alerta de campo vasio ](/images/code/tela_05.png)
+
+5. Tela que mostra a deleção de uma tarefa
 ![Tela inicial após a deleção de tarefa](/images/code/tela_06.png)
 
 
