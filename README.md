@@ -1,3 +1,5 @@
+<div style="text-align: justify;">
+
 # To-Do List React Js
 Desenvolvido por **João Paulo Souza Silva**, **Wagner Santos Duarte** e **Ednei Soares de Carvalho Filho**
 
@@ -179,6 +181,6 @@ O código aqui descrito  juntamente com o estilo css que deve estar no arquivo A
 5. Tela que mostra a deleção de uma tarefa
 ![Tela inicial após a deleção de tarefa](/images/code/tela_06.png)
 
-
+</div>
 
 
