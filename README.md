@@ -1,5 +1,5 @@
 # To-Do List React Js
-Desenvolvido por *João Paulo Souza Silva*, *Wagner Santos Duarte* e *Ednei Soares de Carvalho Filho*
+Desenvolvido por **João Paulo Souza Silva**, **Wagner Santos Duarte** e **Ednei Soares de Carvalho Filho**
 
 ---
 
@@ -28,3 +28,5 @@ Instalar o Create React App: O Create React App é uma ferramenta que facilita a
 
 ## Passo-a-Passo para o desenvolvimento
 Abra o arquivo src/App.js. Você verá uma estrutura parecida com essa: 
+
+![Codigo Base](/src/images/code/image_00.png)
