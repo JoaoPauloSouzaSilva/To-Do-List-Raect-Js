@@ -39,9 +39,9 @@ Durante a elaboração da To Do List, apresentamos três funcionalidades essenci
 
 ![Importações e useState](/src/images/code/import_useetate.png)
 
-import React, { useState } from 'react';: Importa a biblioteca React e o hook useState do React. O useState é usado para gerenciar o estado da aplicação.
+**import React, { useState } from 'react';**: Importa a biblioteca React e o hook useState do React. O useState é usado para gerenciar o estado da aplicação.
 
-import './App.css';: Importa um arquivo de estilos CSS para a aplicação.
+'''import './App.css';''': Importa um arquivo de estilos CSS para a aplicação.
 
 function App() : Início da definição da função principal App.
 
